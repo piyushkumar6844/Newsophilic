@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Appnewsitem from './Appnewsitem'
-// import './App.css'
 export class Appnews extends Component {
     // articles = [
     //     {
@@ -44,14 +43,7 @@ export class Appnews extends Component {
     //       "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
     //     }
     //   ]
-    //   constructor(){
-    //     super();
-    //     console.log("Hello I am a constructor from News component");
-    //     this.state = {
-    //         articles: this.articles,
-    //         loading: false
-    //     }
-    // }
+    
     constructor(){
         super();
         this.state = {
